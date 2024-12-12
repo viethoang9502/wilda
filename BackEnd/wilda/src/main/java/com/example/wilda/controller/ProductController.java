@@ -1,4 +1,4 @@
-package com.example.ogani.controller;
+package com.example.wilda.controller;
 
 import java.util.List;
 
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.ogani.entity.Product;
-import com.example.ogani.model.request.CreateProductRequest;
-import com.example.ogani.model.response.MessageResponse;
-import com.example.ogani.service.ProductService;
+import com.example.wilda.entity.Product;
+import com.example.wilda.model.request.CreateProductRequest;
+import com.example.wilda.model.response.MessageResponse;
+import com.example.wilda.service.ProductService;
 
 import io.swagger.v3.oas.annotations.Operation;
 

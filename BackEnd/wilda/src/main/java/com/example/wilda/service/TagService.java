@@ -1,9 +1,9 @@
-package com.example.ogani.service;
+package com.example.wilda.service;
 
 import java.util.List;
 
-import com.example.ogani.entity.Tag;
-import com.example.ogani.model.request.CreateTagRequest;
+import com.example.wilda.entity.Tag;
+import com.example.wilda.model.request.CreateTagRequest;
 
 public interface TagService {
     

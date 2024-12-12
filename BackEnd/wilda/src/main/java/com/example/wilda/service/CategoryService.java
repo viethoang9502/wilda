@@ -1,9 +1,9 @@
-package com.example.ogani.service;
+package com.example.wilda.service;
 
 import java.util.List;
 
-import com.example.ogani.entity.Category;
-import com.example.ogani.model.request.CreateCategoryRequest;
+import com.example.wilda.entity.Category;
+import com.example.wilda.model.request.CreateCategoryRequest;
 
 public interface CategoryService {
     List<Category> findAll();

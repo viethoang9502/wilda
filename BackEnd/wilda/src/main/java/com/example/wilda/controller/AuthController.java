@@ -1,4 +1,4 @@
-package com.example.ogani.controller;
+package com.example.wilda.controller;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;
@@ -22,13 +22,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.ogani.model.request.CreateUserRequest;
-import com.example.ogani.model.request.LoginRequest;
-import com.example.ogani.model.response.MessageResponse;
-import com.example.ogani.model.response.UserInfoResponse;
-import com.example.ogani.security.jwt.JwtUtils;
-import com.example.ogani.security.service.UserDetailsImpl;
-import com.example.ogani.service.UserService;
+import com.example.wilda.model.request.CreateUserRequest;
+import com.example.wilda.model.request.LoginRequest;
+import com.example.wilda.model.response.MessageResponse;
+import com.example.wilda.model.response.UserInfoResponse;
+import com.example.wilda.security.jwt.JwtUtils;
+import com.example.wilda.security.service.UserDetailsImpl;
+import com.example.wilda.service.UserService;
 
 import io.swagger.v3.oas.annotations.Operation;
 

@@ -1,4 +1,4 @@
-package com.example.ogani.repository;
+package com.example.wilda.repository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.example.ogani.entity.Image;
+import com.example.wilda.entity.Image;
 
 @Repository
 public interface ImageRepository extends JpaRepository<Image,Long> {

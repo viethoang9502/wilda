@@ -1,4 +1,4 @@
-package com.example.ogani.security.jwt;
+package com.example.wilda.security.jwt;
 
 import org.springframework.stereotype.Component;
 import java.util.Date;
@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseCookie;
 import org.springframework.web.util.WebUtils;
 
-import com.example.ogani.security.service.UserDetailsImpl;
+import com.example.wilda.security.service.UserDetailsImpl;
 
 import io.jsonwebtoken.*;
 

@@ -1,4 +1,4 @@
-package com.example.ogani.model.response;
+package com.example.wilda.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.example.ogani.model.request;
+package com.example.wilda.model.request;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;

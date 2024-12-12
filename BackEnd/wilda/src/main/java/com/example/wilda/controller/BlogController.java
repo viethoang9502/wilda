@@ -1,4 +1,4 @@
-package com.example.ogani.controller;
+package com.example.wilda.controller;
 
 import org.springframework.http.ResponseEntity;
 import java.util.List;
@@ -16,13 +16,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.ogani.service.BlogService;
+import com.example.wilda.service.BlogService;
 
 import io.swagger.v3.oas.annotations.Operation;
 
-import com.example.ogani.entity.Blog;
-import com.example.ogani.model.request.CreateBlogRequest;
-import com.example.ogani.model.response.MessageResponse;
+import com.example.wilda.entity.Blog;
+import com.example.wilda.model.request.CreateBlogRequest;
+import com.example.wilda.model.response.MessageResponse;
 
 @RestController
 @RequestMapping("/api/blog")

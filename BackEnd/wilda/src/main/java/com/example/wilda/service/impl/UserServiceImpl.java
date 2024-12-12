@@ -1,4 +1,4 @@
-package com.example.ogani.service.impl;
+package com.example.wilda.service.impl;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -8,17 +8,17 @@ import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.ogani.entity.ERole;
-import com.example.ogani.entity.Role;
-import com.example.ogani.entity.User;
-import com.example.ogani.exception.BadRequestException;
-import com.example.ogani.exception.NotFoundException;
-import com.example.ogani.model.request.ChangePasswordRequest;
-import com.example.ogani.model.request.CreateUserRequest;
-import com.example.ogani.model.request.UpdateProfileRequest;
-import com.example.ogani.repository.RoleRepository;
-import com.example.ogani.repository.UserRepository;
-import com.example.ogani.service.UserService;
+import com.example.wilda.entity.ERole;
+import com.example.wilda.entity.Role;
+import com.example.wilda.entity.User;
+import com.example.wilda.exception.BadRequestException;
+import com.example.wilda.exception.NotFoundException;
+import com.example.wilda.model.request.ChangePasswordRequest;
+import com.example.wilda.model.request.CreateUserRequest;
+import com.example.wilda.model.request.UpdateProfileRequest;
+import com.example.wilda.repository.RoleRepository;
+import com.example.wilda.repository.UserRepository;
+import com.example.wilda.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

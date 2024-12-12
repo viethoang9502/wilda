@@ -1,4 +1,4 @@
-package com.example.ogani.service.impl;
+package com.example.wilda.service.impl;
 
 import java.util.HashSet;
 import java.util.List;
@@ -8,17 +8,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.example.ogani.entity.Blog;
-import com.example.ogani.entity.Image;
-import com.example.ogani.entity.Tag;
-import com.example.ogani.entity.User;
-import com.example.ogani.exception.NotFoundException;
-import com.example.ogani.model.request.CreateBlogRequest;
-import com.example.ogani.repository.BlogRepository;
-import com.example.ogani.repository.ImageRepository;
-import com.example.ogani.repository.UserRepository;
-import com.example.ogani.repository.TagRepository;
-import com.example.ogani.service.BlogService;
+import com.example.wilda.entity.Blog;
+import com.example.wilda.entity.Image;
+import com.example.wilda.entity.Tag;
+import com.example.wilda.entity.User;
+import com.example.wilda.exception.NotFoundException;
+import com.example.wilda.model.request.CreateBlogRequest;
+import com.example.wilda.repository.BlogRepository;
+import com.example.wilda.repository.ImageRepository;
+import com.example.wilda.repository.UserRepository;
+import com.example.wilda.repository.TagRepository;
+import com.example.wilda.service.BlogService;
 import java.sql.Timestamp;
 
 

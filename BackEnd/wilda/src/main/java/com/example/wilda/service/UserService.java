@@ -1,9 +1,9 @@
-package com.example.ogani.service;
+package com.example.wilda.service;
 
-import com.example.ogani.entity.User;
-import com.example.ogani.model.request.ChangePasswordRequest;
-import com.example.ogani.model.request.CreateUserRequest;
-import com.example.ogani.model.request.UpdateProfileRequest;
+import com.example.wilda.entity.User;
+import com.example.wilda.model.request.ChangePasswordRequest;
+import com.example.wilda.model.request.CreateUserRequest;
+import com.example.wilda.model.request.UpdateProfileRequest;
 
 public interface UserService {
     

@@ -1,14 +1,14 @@
-package com.example.ogani.service.impl;
+package com.example.wilda.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.ogani.entity.Image;
-import com.example.ogani.exception.NotFoundException;
-import com.example.ogani.repository.ImageRepository;
-import com.example.ogani.service.ImageService;
+import com.example.wilda.entity.Image;
+import com.example.wilda.exception.NotFoundException;
+import com.example.wilda.repository.ImageRepository;
+import com.example.wilda.service.ImageService;
 
 @Service
 public class ImageServiceImpl implements ImageService {

@@ -1,9 +1,9 @@
-package com.example.ogani.service;
+package com.example.wilda.service;
 
 import java.util.List;
 
-import com.example.ogani.entity.Product;
-import com.example.ogani.model.request.CreateProductRequest;
+import com.example.wilda.entity.Product;
+import com.example.wilda.model.request.CreateProductRequest;
 
 public interface ProductService {
     

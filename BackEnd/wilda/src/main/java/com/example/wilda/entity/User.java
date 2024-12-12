@@ -1,4 +1,4 @@
-package com.example.ogani.entity;
+package com.example.wilda.entity;
 
 import java.sql.Date;
 import java.util.HashSet;

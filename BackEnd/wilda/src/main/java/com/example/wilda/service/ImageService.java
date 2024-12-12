@@ -1,8 +1,8 @@
-package com.example.ogani.service;
+package com.example.wilda.service;
 
 import java.util.List;
 
-import com.example.ogani.entity.Image;
+import com.example.wilda.entity.Image;
 
 public interface ImageService {
     List<Image> getListImage();

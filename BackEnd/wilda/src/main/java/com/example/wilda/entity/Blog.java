@@ -1,4 +1,4 @@
-package com.example.ogani.entity;
+package com.example.wilda.entity;
 
 import java.util.HashSet;
 import java.util.Set;

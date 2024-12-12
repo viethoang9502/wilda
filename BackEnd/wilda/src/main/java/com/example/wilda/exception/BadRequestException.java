@@ -1,4 +1,4 @@
-package com.example.ogani.exception;
+package com.example.wilda.exception;
 
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.http.HttpStatus;

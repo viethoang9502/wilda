@@ -1,4 +1,4 @@
-package com.example.ogani.security.jwt;
+package com.example.wilda.security.jwt;
 
 import java.io.IOException;
 import java.util.HashMap;

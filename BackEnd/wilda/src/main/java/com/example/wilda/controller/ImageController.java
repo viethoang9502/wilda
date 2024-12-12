@@ -1,4 +1,4 @@
-package com.example.ogani.controller;
+package com.example.wilda.controller;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.example.ogani.entity.Image;
-import com.example.ogani.exception.BadRequestException;
-import com.example.ogani.exception.InternalServerException;
-import com.example.ogani.service.ImageService;
+import com.example.wilda.entity.Image;
+import com.example.wilda.exception.BadRequestException;
+import com.example.wilda.exception.InternalServerException;
+import com.example.wilda.service.ImageService;
 
 import io.swagger.v3.oas.annotations.Operation;
 

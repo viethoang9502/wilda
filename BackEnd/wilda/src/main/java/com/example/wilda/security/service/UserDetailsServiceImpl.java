@@ -1,4 +1,4 @@
-package com.example.ogani.security.service;
+package com.example.wilda.security.service;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.example.ogani.entity.User;
-import com.example.ogani.repository.UserRepository;
+import com.example.wilda.entity.User;
+import com.example.wilda.repository.UserRepository;
 
 
 

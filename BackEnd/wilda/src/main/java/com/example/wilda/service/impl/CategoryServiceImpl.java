@@ -1,4 +1,4 @@
-package com.example.ogani.service.impl;
+package com.example.wilda.service.impl;
 
 import java.util.List;
 
@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.example.ogani.entity.Category;
-import com.example.ogani.exception.NotFoundException;
-import com.example.ogani.model.request.CreateCategoryRequest;
-import com.example.ogani.repository.CategoryRepository;
-import com.example.ogani.repository.UserRepository;
-import com.example.ogani.service.CategoryService;
+import com.example.wilda.entity.Category;
+import com.example.wilda.exception.NotFoundException;
+import com.example.wilda.model.request.CreateCategoryRequest;
+import com.example.wilda.repository.CategoryRepository;
+import com.example.wilda.repository.UserRepository;
+import com.example.wilda.service.CategoryService;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {

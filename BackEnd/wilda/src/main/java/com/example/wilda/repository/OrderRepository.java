@@ -1,4 +1,4 @@
-package com.example.ogani.repository;
+package com.example.wilda.repository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.example.ogani.entity.Order;
+import com.example.wilda.entity.Order;
 
 @Repository
 public interface OrderRepository extends JpaRepository<Order,Long> {

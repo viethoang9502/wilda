@@ -1,4 +1,4 @@
-package com.example.ogani.service.impl;
+package com.example.wilda.service.impl;
 
 import java.util.List;
 
@@ -6,16 +6,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.example.ogani.entity.Order;
-import com.example.ogani.entity.OrderDetail;
-import com.example.ogani.entity.User;
-import com.example.ogani.exception.NotFoundException;
-import com.example.ogani.model.request.CreateOrderDetailRequest;
-import com.example.ogani.model.request.CreateOrderRequest;
-import com.example.ogani.repository.OrderDetailRepository;
-import com.example.ogani.repository.OrderRepository;
-import com.example.ogani.repository.UserRepository;
-import com.example.ogani.service.OrderService;
+import com.example.wilda.entity.Order;
+import com.example.wilda.entity.OrderDetail;
+import com.example.wilda.entity.User;
+import com.example.wilda.exception.NotFoundException;
+import com.example.wilda.model.request.CreateOrderDetailRequest;
+import com.example.wilda.model.request.CreateOrderRequest;
+import com.example.wilda.repository.OrderDetailRepository;
+import com.example.wilda.repository.OrderRepository;
+import com.example.wilda.repository.UserRepository;
+import com.example.wilda.service.OrderService;
 
 @Service
 public class OrderServiceImpl implements OrderService {

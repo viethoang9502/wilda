@@ -1,9 +1,9 @@
-package com.example.ogani.model.response;
+package com.example.wilda.model.response;
 
 import java.util.List;
 import java.util.Set;
 
-import com.example.ogani.entity.Role;
+import com.example.wilda.entity.Role;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

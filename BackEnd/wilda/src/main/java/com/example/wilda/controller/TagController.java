@@ -1,4 +1,4 @@
-package com.example.ogani.controller;
+package com.example.wilda.controller;
 
 import java.util.List;
 
@@ -16,13 +16,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.ogani.entity.Tag;
-import com.example.ogani.model.response.MessageResponse;
-import com.example.ogani.service.TagService;
+import com.example.wilda.entity.Tag;
+import com.example.wilda.model.response.MessageResponse;
+import com.example.wilda.service.TagService;
 
 import io.swagger.v3.oas.annotations.Operation;
 
-import com.example.ogani.model.request.CreateTagRequest;
+import com.example.wilda.model.request.CreateTagRequest;
 
 @RestController
 @RequestMapping("/api/tag")

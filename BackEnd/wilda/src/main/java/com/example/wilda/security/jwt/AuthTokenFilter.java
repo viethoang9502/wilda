@@ -1,4 +1,4 @@
-package com.example.ogani.security.jwt;
+package com.example.wilda.security.jwt;
 
 import java.io.IOException;
 
@@ -16,7 +16,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.example.ogani.security.service.UserDetailsServiceImpl;
+import com.example.wilda.security.service.UserDetailsServiceImpl;
 
 
 

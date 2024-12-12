@@ -1,4 +1,4 @@
-package com.example.ogani.repository;
+package com.example.wilda.repository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.example.ogani.entity.Product;
+import com.example.wilda.entity.Product;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product,Long> {

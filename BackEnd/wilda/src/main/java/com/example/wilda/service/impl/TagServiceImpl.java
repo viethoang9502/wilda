@@ -1,4 +1,4 @@
-package com.example.ogani.service.impl;
+package com.example.wilda.service.impl;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.example.ogani.entity.Tag;
-import com.example.ogani.exception.NotFoundException;
-import com.example.ogani.model.request.CreateTagRequest;
-import com.example.ogani.repository.TagRepository;
-import com.example.ogani.service.TagService;
+import com.example.wilda.entity.Tag;
+import com.example.wilda.exception.NotFoundException;
+import com.example.wilda.model.request.CreateTagRequest;
+import com.example.wilda.repository.TagRepository;
+import com.example.wilda.service.TagService;
 
 @Service
 public class TagServiceImpl implements TagService {

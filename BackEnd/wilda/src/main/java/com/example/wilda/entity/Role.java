@@ -1,4 +1,4 @@
-package com.example.ogani.entity;
+package com.example.wilda.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

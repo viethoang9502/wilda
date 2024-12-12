@@ -1,4 +1,4 @@
-package com.example.ogani.model.request;
+package com.example.wilda.model.request;
 
 import java.util.HashSet;
 import java.util.Set;

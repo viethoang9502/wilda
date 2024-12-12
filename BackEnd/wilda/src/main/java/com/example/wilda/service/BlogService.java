@@ -1,9 +1,9 @@
-package com.example.ogani.service;
+package com.example.wilda.service;
 
 import java.util.List;
 
-import com.example.ogani.entity.Blog;
-import com.example.ogani.model.request.CreateBlogRequest;
+import com.example.wilda.entity.Blog;
+import com.example.wilda.model.request.CreateBlogRequest;
 
 public interface BlogService {
     

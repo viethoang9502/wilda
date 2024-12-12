@@ -1,9 +1,9 @@
-package com.example.ogani.service;
+package com.example.wilda.service;
 
 import java.util.List;
 
-import com.example.ogani.entity.Order;
-import com.example.ogani.model.request.CreateOrderRequest;
+import com.example.wilda.entity.Order;
+import com.example.wilda.model.request.CreateOrderRequest;
 
 public interface OrderService {
     
