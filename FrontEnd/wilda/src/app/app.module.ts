@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/admin/dashboard/dashboard.component';
@@ -100,7 +99,8 @@ import { LoginPageComponent } from './components/client/login-page/login-page.co
     PasswordModule,
     SliderModule,
     DataViewModule,
-    MultiSelectModule
+    MultiSelectModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
